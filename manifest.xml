@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <project name="isouzz/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" remote="github" revision="lineage-18.0" />
+        <project name="isouzz/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" remote="github" revision="lineage-17.1" />
+        <project name="isouzz/kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="github" revision="lineage-17.1" />
+        <project name="isouzz/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-17.1" />
+        <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.0" />
+        <project name="sm6150-dev/android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="github" revision="lineage-18.0-caf-sm8150" />
+        <project name="sm6150-dev/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="lineage-18.0-caf-sm8150" />
+        <project name="sm6150-dev/android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="github" revision="lineage-18.0-caf-sm8150" />
+	<project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" remote="github" revision="lineage-18.0" >
+          <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+          <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+	  <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+	</project>
+        <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-18.0" />
+        <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="lineage-18.0-caf" />
+        <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="github" revision="lineage-18.0" />
+</manifest>
