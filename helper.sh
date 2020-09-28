@@ -36,6 +36,9 @@ repopick 286447 -P frameworks/av
 repopick 286170 -P frameworks/av
 repopick 286171 -P frameworks/av
 repopick 286901 -P hardware/qcom-caf/sm8150/audio/
+repopick 285806 -P packages/apps/Etar
+repopick 286412 -P packages/apps/LineageParts/
+repopick 286435 -P packages/apps/LineageParts/
 }
 
 echo -e ${ylw}
